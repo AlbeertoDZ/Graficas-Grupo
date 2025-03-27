@@ -108,8 +108,6 @@ function paintGraphCharacter(dataset){
       seriesBarDistance: 10,
       high: 8,
       
-
-
     };
     
     var responsiveOptions = [
@@ -131,7 +129,7 @@ function paintGraphCharacter(dataset){
       }]
     ];
     
-    new Chartist.Line('.movies1', data, options, responsiveOptions);
+    new Chartist.Bar('.movies1', data, options, responsiveOptions);
 
 }
 
